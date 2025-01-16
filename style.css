@@ -1,0 +1,37 @@
+/* Developer _ abdullahalsifat.com */
+/* Google Font */
+@font-face {
+  font-family: 'exo-font';
+  src: url(./fonts/Exo2-Regular.ttf) format('truetype');
+}
+/* Default Setting */
+*{
+  font-family: 'exo-font' sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+a:hover{
+  color: var(--button-color);
+}
+li{
+  list-style: none;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+/* Custom Setting */
+:root{
+  --primary-color: #FFFFFF;
+  --heading-color: #131313;
+  --text-color: #424242;
+  --bg-color: #FFF4E7;
+  --button-color: #FF900E;
+}
