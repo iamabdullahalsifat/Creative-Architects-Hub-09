@@ -126,7 +126,7 @@ button{
 }
 /* ==(Main)== */
 #main{
-  margin: 80px auto;
+  margin: 50px auto;
   padding: 0 20px;
 }
 /* Quick List */
@@ -154,6 +154,14 @@ button{
   color: var(--primary-color);
   padding: 10px 20px;
   border-radius: 4px;
+}
+.quick_list_heading{
+  font-size: 40px;
+}
+.features_active{
+  color: var(--button-color);
+  font-size: 40px;
+  font-weight: bold;
 }
 /* 768 Media */
 @media screen and (max-width: 768px){
@@ -183,6 +191,19 @@ button{
   .banner_heading{
     font-size: 30px;
   }
+  /* Quick List */
+  .quick_list{
+    flex-direction: column-reverse;
+  }
+  .quick_list_heading, .features_active{
+    text-align: center;
+    font-size: 30px;
+  }
+  .quick_list_btn{
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
 /* 576 Media */
 @media screen and (max-width: 576px){
@@ -196,5 +217,10 @@ button{
   /* Navbar */
   .logo_heading{
     font-size: 22px;
+  }
+  /* Quick List */
+  .quick_list_img{
+    display: grid;
+    grid-template-columns: auto;
   }
 }
