@@ -37,6 +37,9 @@ h6{
   font-size: 18px;
   font-weight: 500;
 }
+p{
+  color: var(--text-color);
+}
 a{
   text-decoration: none;
   color: var(--text-color);
@@ -90,8 +93,42 @@ button{
 .open_menu, .close_menu{
   display: none;
 }
+/* Banner */
+.banner{
+  margin-top: 60px;
+}
+.banner_heading{
+  font-size: 38px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+.banner_dis{
+  max-width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+.banner_button{
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  margin: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.banner_image{
+  margin: 40px auto 10px;
+}
+.banner_image img{
+  width: 100%;
+  border-radius: 8px;
+}
 /* 768 Media */
 @media screen and (max-width: 768px){
+  /* Navbar */
   .nav_link{
     position: fixed;
     top: -100%;
@@ -113,9 +150,21 @@ button{
   #check:checked ~ .nav_link{
     top: 75px;
   }
+  /* Banner */
+  .banner_heading{
+    font-size: 30px;
+  }
+}
+/* 576 Media */
+@media screen and (max-width: 576px){
+  /* Banner */
+  .banner_heading{
+    font-size: 25px;
+  }
 }
 /* 400 Media */
 @media screen and (max-width: 400px){
+  /* Navbar */
   .logo_heading{
     font-size: 22px;
   }
