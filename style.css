@@ -52,13 +52,11 @@ a:hover{
   color: var(--button-color);
   transition: 0.3s ease-in-out;
 }
-li{
-  list-style: none;
-}
 button{
   border: none;
   outline: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .body-screen{
   max-width: 1200px;
@@ -86,6 +84,7 @@ button{
 .nav_link{
   display: flex;
   gap: 25px;
+  list-style: none;
 }
 .nav_input{
   display: none;
@@ -116,7 +115,6 @@ button{
   padding: 10px;
   border-radius: 8px;
   font-size: 17px;
-  cursor: pointer;
   font-weight: 500;
 }
 .banner_image{
@@ -125,6 +123,37 @@ button{
 .banner_image img{
   width: 100%;
   border-radius: 8px;
+}
+/* ==(Main)== */
+#main{
+  margin: 80px auto;
+  padding: 0 20px;
+}
+/* Quick List */
+.quick_list{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.quick_list_img{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+.quick_list_img img{
+  width: 100%;
+}
+.quick_list_content{
+  margin: auto;
+}
+.quick_list_items{
+  padding: 15px 30px;
+}
+.quick_list_btn{
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 /* 768 Media */
 @media screen and (max-width: 768px){
