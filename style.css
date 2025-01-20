@@ -311,6 +311,15 @@ button{
 /* 768 Media */
 @media screen and (max-width: 768px){
   /* Navbar */
+  .navbar{
+    background-color: var(--bg-color);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 15px 20px;
+  }
   .nav_link{
     position: fixed;
     top: -100%;
@@ -330,7 +339,7 @@ button{
     display: block;
   }
   #check:checked ~ .nav_link{
-    top: 75px;
+    top: 65px;
   }
   /* Banner */
   .banner_heading{
@@ -348,6 +357,10 @@ button{
     margin: auto;
     display: block;
     margin-bottom: 20px;
+  }
+  /* Footer */
+  #footer > p{
+    margin-bottom: 30px;
   }
 }
 /* 576 Media */
