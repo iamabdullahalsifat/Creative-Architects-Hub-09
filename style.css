@@ -270,6 +270,23 @@ button{
   width: 80%;
   filter: grayscale(100%);
 }
+/* Footer */
+#footer{
+  padding: 0 20px;
+}
+#footer > p{
+  background-color: var(--bg-color);
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+#footer > p > a{
+  color: var(--button-color);
+}
+#footer > p > a:hover{
+  color: var(--text-color);
+}
 /* 840 Media */
 @media screen and (max-width: 840px){
   /* discover */
