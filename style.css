@@ -250,6 +250,26 @@ button{
 .key_card h3{
   margin-bottom: 10px;
 }
+/* Partners */
+.partners_heading{
+  text-align: center;
+  font-size: 38px;
+}
+.partners_dis{
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto 50px;
+  font-size: 16px;
+}
+.brands_name{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+.brand_logo img{
+  width: 80%;
+  filter: grayscale(100%);
+}
 /* 840 Media */
 @media screen and (max-width: 840px){
   /* discover */
@@ -264,6 +284,11 @@ button{
   /* Key Achievements */
   .key_achievements{
     grid-template-columns: repeat(2, 1fr);
+  }
+  /* Brands */
+  .brands_name{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
   }
 }
 /* 768 Media */
@@ -340,5 +365,13 @@ button{
   .quick_list_img{
     display: grid;
     grid-template-columns: auto;
+  }
+  /* Brands */
+  .brands_name{
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+  .brand_logo img{
+    width: 60%;
   }
 }
