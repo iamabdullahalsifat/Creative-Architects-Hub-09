@@ -222,7 +222,7 @@ button{
 }
 /* key Achievements */
 #key{
-  margin: 100px 0;
+  margin: 100px 0 50px;
 }
 .key_heading{
   font-size: 40px;
@@ -370,6 +370,9 @@ button{
     font-size: 25px;
   }
   /* Discover */
+  .discover_heading{
+    font-size: 33px;
+  }
   .discover_content, .discover_image{
     width: 100%;
   }
@@ -382,6 +385,10 @@ button{
     grid-template-columns: auto;
   }
   .key_heading{
+    font-size: 30px;
+  }
+  /* Brands */
+  .partners_heading{
     font-size: 30px;
   }
 }
